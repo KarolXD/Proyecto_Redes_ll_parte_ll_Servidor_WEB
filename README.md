@@ -1,4 +1,4 @@
->  # Creación de un antivirus, Parte l
+>  # Creación de un Servidor HTTP
 
 
 * El Readme de este repositorio tendrá una descripción del software que se debe instalar
@@ -29,43 +29,10 @@ Dirigirse a la carpeta donde se clonó el repositorio, para comprobar si efectiv
 
 ![](https://github.com/KarolXD/Proyecto_Virus-Redes-ll-Parte-1/blob/main/Redes2/Fotos/Clonacion2.PNG)
 
-# Restauración de la Base de datos
-
-* **Paso #1**
-
-Instalar gestor de base de datos, para este demo se utilizó Sql Server
-
-* **Paso #2** 
-
-Configuración de Credenciales
-Para este demo, usamos un login en SqlServer
-
-![](https://github.com/KarolXD/Proyecto_Virus-Redes-ll-Parte-1/blob/main/Redes2/Fotos/LoginSQL.PNG)
-
-
-* **Paso #3**
-Pasos para crear el restore en el motor de la Base de datos:
-Presionamos el motor de BD, click derecho: Y vamos a la siguiente ruta: Tasks/Restore/Database
-
-Como podemos ver acontinuación:
-
-![](https://github.com/KarolXD/Proyecto_Virus-Redes-ll-Parte-1/blob/main/Redes2/Fotos/Restore1BD.PNG)
-
-**Nota**: En el repositorio, en la carpeta scripts, se encuentra el .bak para hacer el restore, asi como los demas scripts, de las tablas que lleva la Base de datos, así como
-los procedimientos almacenados
-
-* **Paso #4**
-Configurar el Restore:
-
-Agregando una ruta, de donde se encuentra el .bak, asi como selecccionando la BD destino, donde se restaurará
-Como podemos ver acontinuación
-
-![](https://github.com/KarolXD/Proyecto_Virus-Redes-ll-Parte-1/blob/main/Redes2/Fotos/Restore2BD.PNG)
-
 
 
 # Título del Proyecto
-Creacion de un antivirus
+Creacion de un servidor HTTP
 
 # Empezando
 
@@ -75,11 +42,10 @@ Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento 
 En este apartado detalleremos que cosas se necesitan para instalar el software y cómo instalarlas
 
 Necesito:
-* Gestor de Base de datos
 
-* IDE de desarrollo: Pycharm o Notepad++
+* IDE Netbeans
 
-* Python
+* Java
 
 * Controlador de Versiones
 
@@ -92,21 +58,15 @@ Necesito:
 En este apartado, se brindan una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo
 
 
-* **IDE Pycharm**
+* **IDE NETBEANS**
 
-Para descargar el IDE usado en este proyecto, se debe dirigir a el siguiente enlace : https://www.jetbrains.com/pycharm/download/
-Y simplemente presiona sobre el botón 'Download'
+Vaya a la página de descargas de NetBeans IDE. (https://netbeans.org/downloads/8.2/rc/) En la parte superior derecha de la página, seleccione el idioma y la plataforma en la lista desplegable. También puede optar por descargar y utilizar el archivo zip independiente de la plataforma. Haga clic en el botón Download (Descargar) de la opción de descarga que desee instalar. Guarde el archivo del instalador en el sistema.
 
-Nota: Para este proyecto, utilizamos el Pycharm Community
+* **JDK**
 
-* **Python**
-
-Para descargar Python, vamos al siguiente enlace: https://www.python.org/downloads/
+Ve a la pagina: https://www.oracle.com/technetwork/es/java/javase/downloads/index.html Para empezar a descargar el jdk que utiliza Descargar e instalar
 
 
-*  **Gestor de Base de datos**
-
-Para  descargar el gestor de base de datos, se dirigen a el siguiente enlace: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
 
 
 
@@ -123,23 +83,18 @@ Para el control de tareas, se utilizó Trello, enlace para registrarse: https://
 
 # Construido con
 
-* **Python:** Se utilizó como Lenguaje de Programación
-
-* **Sql Server:** Se utilizó como Gestor de Base de datos
+* **Java:** Se utilizó como Lenguaje de Programación
 
 * **Git:** Se utilizó como controlador de versiones y tareas
 
-* **IDE: Pycharm** Se usó como entorno de desarrollo
-
-*  **Gui Tkinder** Se usó para la creación de la GUI (Interfaz grafica de usuario)
+* **IDE: Netbeans** Se usó como entorno de desarrollo
 
 # Versionado
 
-* Version python 3.7
+* Version jdk 8.0
 
-* Version Pycharm: 202
+* Version IDE: 11.3
 
-* Version SqlServer Management Studio  2019
 
 * Version Gitkaten 7.4.0
 
@@ -158,14 +113,6 @@ Este proyecto no está licenciado bajo alguna  Licencia
 # Expresiones de gratitud
 
 En los siguientes enlaces, fueron donde tomamos  feedback para la contrucción del presente proyecto
-*https://people.sugarlabs.org/ignacio/Python/python+3.pdf
 
-https://decodigo.com/python-borar-archivo
-
-https://www.youtube.com/watch?v=QDdQtuRCh_g
-
-https://micro.recursospython.com/recursos/como-copiar-o-mover-un-archivo.html
-
-https://python-para-impacientes.blogspot.com/2014/02/operaciones-con-fechas-y-horas.html
 etc.
 
