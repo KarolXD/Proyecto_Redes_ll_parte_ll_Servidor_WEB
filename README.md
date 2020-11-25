@@ -1,4 +1,4 @@
-# >  # Creación de un antivirus, Parte l
+>  # Creación de un antivirus, Parte l
 
 
 * El Readme de este repositorio tendrá una descripción del software que se debe instalar
