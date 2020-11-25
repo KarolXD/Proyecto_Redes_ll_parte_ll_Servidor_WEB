@@ -1,4 +1,4 @@
->  # Creación de un Servidor HTTP
+>  # Creación de un Servidor Web HTTP en JAVA
 
 
 * El Readme de este repositorio tendrá una descripción del software que se debe instalar
@@ -10,7 +10,7 @@ para ejecutar el proyecto y los pasos detallados.
 
 # Clonando el repositorio
 Para empezar con la clonación del repositorio,
-Usando el IDE Pycharm version 202
+Usando el IDE Netbeans version 11.3
 
 Para clonar el proyecto, se deben hacer los siguientes pasos.
 
@@ -32,7 +32,7 @@ Dirigirse a la carpeta donde se clonó el repositorio, para comprobar si efectiv
 
 
 # Título del Proyecto
-Creacion de un servidor HTTP
+Creacion de un servidor Web HTTP en Java
 
 # Empezando
 
