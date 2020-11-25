@@ -18,19 +18,16 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 import java.util.StringTokenizer;
+import javax.swing.JOptionPane;
 
-// The tutorial can be found just here on the SSaurel's Blog : 
-// https://www.ssaurel.com/blog/create-a-simple-http-web-server-in-java
-// Each Client Connection will be managed in a dedicated Thread
 public class JavaHTTPServer implements Runnable {
 
-    static final File WEB_ROOT = new File("C:/Users/Jahanel/Documents/NetBeansProjects/Proyecto2/src/proyecto2/");
+    static final File WEB_ROOT = new File("../Proyecto_Redes_ll_parte_ll_Servidor_WEB/Proyecto2/src/proyecto2/");
     static final String DEFAULT_FILE = "index.html";
     static final String FILE_NOT_FOUND = "404.html";
     static final String METHOD_NOT_SUPPORTED = "not_supported.html";
     // port to listen connection
     static final int PORT = 8080;
-
     // verbose mode
     static final boolean verbose = true;
 
@@ -40,9 +37,8 @@ public class JavaHTTPServer implements Runnable {
     public JavaHTTPServer(Socket c) {
         connect = c;
     }
-
-    public static void main(String[] args) {
-        try {
+public static void principal(){
+ try {
             ServerSocket serverConnect = new ServerSocket(PORT);
             System.out.println("Server started.\nListening for connections on port : " + PORT + " ...\n");
 
@@ -52,6 +48,7 @@ public class JavaHTTPServer implements Runnable {
 
                 if (verbose) {
                     System.out.println("Connecton opened. (" + new Date() + ")");
+                 
                 }
 
                 // create dedicated thread to manage the client connection
@@ -62,6 +59,20 @@ public class JavaHTTPServer implements Runnable {
         } catch (IOException e) {
             System.err.println("Server Connection error : " + e.getMessage());
         }
+
+}
+    
+    public static void main(String[] args) {
+        
+        
+       int codigo=JOptionPane.showConfirmDialog(null, "¿Quieres ejecutar el servidor HTTP?", "¿Pregunta?", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
+        if (codigo==JOptionPane.YES_OPTION){
+            System.out.println("Has pulsado en SI");
+              principal();
+        }else if(codigo==JOptionPane.NO_OPTION){
+            System.out.println("Has pulsado en NO");
+        } 
+     
     }
 
     @Override
@@ -116,7 +127,7 @@ public class JavaHTTPServer implements Runnable {
             } else {
                 // GET or HEAD method
                 if (fileRequested.endsWith("/")) {
-                    fileRequested += DEFAULT_FILE;
+                   fileRequested += DEFAULT_FILE;
                 }
 
                 File file = new File(WEB_ROOT, fileRequested);
