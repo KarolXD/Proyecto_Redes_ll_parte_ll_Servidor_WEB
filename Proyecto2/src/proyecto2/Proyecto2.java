@@ -7,6 +7,7 @@ package proyecto2;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpServer;
+import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -15,7 +16,9 @@ import java.net.InetSocketAddress;
  * @author Jahanel
  */
 public class Proyecto2 {
-
+static String root="C:\\Users\\Karol\\Desktop\\Proyecto_Redes_ll_parte_ll_Servidor_WEB\\www\\";    
+static final File WEB_ROOT = new File("C:\\Users\\Karol\\Desktop\\Proyecto_Redes_ll_parte_ll_Servidor_WEB\\www\\");
+  
     /**
      * @param args the command line arguments
      */
@@ -28,15 +31,14 @@ public class Proyecto2 {
     }
 
     public static void gestionarSolicitud(HttpExchange exchange) throws IOException {
-        final int CODIGO_RESPUESTA = 200;
-        String contenido = "Respuesta desde el servidor HTTP"
-                + "";
-
+ 
+      final int CODIGO_RESPUESTA = 200;      
+      String  contenido= "<HOLA>";
         exchange.sendResponseHeaders(CODIGO_RESPUESTA, contenido.getBytes().length);
-
         OutputStream os = exchange.getResponseBody();
-
         os.write(contenido.getBytes());
-        os.close();
+        os.close();       
+
+       
     }
 }
