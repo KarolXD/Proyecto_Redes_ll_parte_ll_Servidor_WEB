@@ -51,6 +51,7 @@ Necesito:
 
 * Controlador de tareas
 
+* Plugins de Html en java
 
 
 
@@ -68,8 +69,6 @@ Ve a la pagina: https://www.oracle.com/technetwork/es/java/javase/downloads/inde
 
 
 
-
-
 * **Controlador de Versiones**
 
 Para el controlador de versiones, usamos Github y GitKraken
@@ -81,6 +80,7 @@ Gitkraken: Usado para cambio de versiones en el repositorio
 * **Controlador de Tareas**
 Para el control de tareas, se utilizó Trello, enlace para registrarse: https://trello.com/
 
+
 # Construido con
 
 * **Java:** Se utilizó como Lenguaje de Programación
@@ -88,6 +88,8 @@ Para el control de tareas, se utilizó Trello, enlace para registrarse: https://
 * **Git:** Se utilizó como controlador de versiones y tareas
 
 * **IDE: Netbeans** Se usó como entorno de desarrollo
+
+* **HTML:** Se usó como lenguaje de maquetado
 
 # Versionado
 
@@ -97,6 +99,9 @@ Para el control de tareas, se utilizó Trello, enlace para registrarse: https://
 
 
 * Version Gitkaten 7.4.0
+
+
+* Version HTML5
 
 
 # Autores
