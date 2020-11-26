@@ -22,7 +22,7 @@ import javax.swing.JOptionPane;
 
 public class JavaHTTPServer implements Runnable {
 
-    static final File WEB_ROOT = new File("../Proyecto_Redes_ll_parte_ll_Servidor_WEB/Proyecto2/src/proyecto2/");
+    static final File WEB_ROOT = new File("C:/Users/Karol/Desktop/Proyecto_Redes_ll_parte_ll_Servidor_WEB/Proyecto2/src/proyecto2/");
     static final String DEFAULT_FILE = "index.html";
     static final String FILE_NOT_FOUND = "404.html";
     static final String METHOD_NOT_SUPPORTED = "not_supported.html";
