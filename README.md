@@ -20,7 +20,7 @@ Abrir el controlador de versiones, para este ejemplo, lo haremos con el controla
 
 *  **Paso #2**
 Dirigirse a el apartado 'Clonar', y a seleccionar el repositorio que se desea clonar, Y Seleccionar donde se desea guardar la clonacion del repositorio.
-Como vemos acontinuación
+Como vemos a continuación
 
 ![](https://github.com/KarolXD/Proyecto_Virus-Redes-ll-Parte-1/blob/main/Redes2/Fotos/Clonacion1.PNG)
 
@@ -51,7 +51,7 @@ Necesito:
 
 * Controlador de tareas
 
-* Plugins de Html en java
+* Pluggins de Html en java
 
 
 
@@ -89,7 +89,7 @@ Para el control de tareas, se utilizó Trello, enlace para registrarse: https://
 
 * **IDE: Netbeans** Se usó como entorno de desarrollo
 
-* **HTML:** Se usó como lenguaje de maquetado
+* **HTML5:** Se usó como lenguaje de maquetado
 
 # Versionado
 
