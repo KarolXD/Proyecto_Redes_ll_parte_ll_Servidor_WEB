@@ -119,5 +119,7 @@ Este proyecto no está licenciado bajo alguna  Licencia
 
 En los siguientes enlaces, fueron donde tomamos  feedback para la contrucción del presente proyecto
 
+https://www.programarya.com/Cursos-Avanzados/Java/Sockets
+
 etc.
 
