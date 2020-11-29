@@ -1,4 +1,4 @@
->  # Creación de un Servidor Web HTTP en JAVA
+>  # Creación de un Servidor Web HTTP y HTTPS en JAVA
 
 
 * El Readme de este repositorio tendrá una descripción del software que se debe instalar
@@ -32,7 +32,7 @@ Dirigirse a la carpeta donde se clonó el repositorio, para comprobar si efectiv
 
 
 # Título del Proyecto
-Creacion de un servidor Web HTTP en Java
+Creacion de un servidor Web HTTP y HTTPS en Java
 
 # Empezando
 
