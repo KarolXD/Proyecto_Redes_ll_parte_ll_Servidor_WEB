@@ -1,4 +1,4 @@
->  # Creación de un Servidor Web HTTP en JAVA
+>  # Creación de un Servidor Web HTTP y HTTPS en JAVA
 
 
 * El Readme de este repositorio tendrá una descripción del software que se debe instalar
@@ -20,7 +20,7 @@ Abrir el controlador de versiones, para este ejemplo, lo haremos con el controla
 
 *  **Paso #2**
 Dirigirse a el apartado 'Clonar', y a seleccionar el repositorio que se desea clonar, Y Seleccionar donde se desea guardar la clonacion del repositorio.
-Como vemos acontinuación
+Como vemos a continuación
 
 ![](https://github.com/KarolXD/Proyecto_Virus-Redes-ll-Parte-1/blob/main/Redes2/Fotos/Clonacion1.PNG)
 
@@ -32,7 +32,7 @@ Dirigirse a la carpeta donde se clonó el repositorio, para comprobar si efectiv
 
 
 # Título del Proyecto
-Creacion de un servidor Web HTTP en Java
+Creacion de un servidor Web HTTP y HTTPS en Java
 
 # Empezando
 
@@ -51,7 +51,7 @@ Necesito:
 
 * Controlador de tareas
 
-* Plugins de Html en java
+* Pluggins de Html en java
 
 
 
@@ -89,7 +89,7 @@ Para el control de tareas, se utilizó Trello, enlace para registrarse: https://
 
 * **IDE: Netbeans** Se usó como entorno de desarrollo
 
-* **HTML:** Se usó como lenguaje de maquetado
+* **HTML5:** Se usó como lenguaje de maquetado
 
 # Versionado
 
@@ -118,6 +118,8 @@ Este proyecto no está licenciado bajo alguna  Licencia
 # Expresiones de gratitud
 
 En los siguientes enlaces, fueron donde tomamos  feedback para la contrucción del presente proyecto
+
+https://www.programarya.com/Cursos-Avanzados/Java/Sockets
 
 etc.
 
